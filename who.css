@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    padding: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    height:20%;
+    background-color: rgb(81, 59, 86);  
+  }
+  
+  .header-first-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(81, 59, 86, 0.8);
+    font-size: 2rem;
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: rgba(93, 211, 158, 1);
+    font-family: "Roboto", sans-serif;
+  }
+
+  main {
+    height:70%;
+    position: relative;
+
+    padding: 5%;
+    background: -webkit-linear-gradient(
+      180deg,
+      rgb(81, 59, 86),
+      rgb(93, 211, 158)
+    );
+    background: linear-gradient(180deg, rgb(81, 59, 86), rgb(93, 211, 158));
+  
+    -webkit-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+  
+    @-webkit-keyframes AnimationName {
+      0% {
+        background-position: 0% 79%;
+      }
+      50% {
+        background-position: 100% 22%;
+      }
+      100% {
+        background-position: 0% 79%;
+      }
+    }
+    @keyframes AnimationName {
+      0% {
+        background-position: 0% 79%;
+      }
+      50% {
+        background-position: 100% 22%;
+      }
+      100% {
+        background-position: 0% 79%;
+      }
+    };
+    
+  }
+
+  main p{
+    font-size: 1.5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    position: inherit;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+
+
+  /** FOOTER!!! */
+
+  .final {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+}
+
+footer {
+    height:3%;
+    margin-bottom: 0px;
+}
+
+
+footer p {
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-size: 1.5rem;
+
+  /* background-color: rgb(153, 151, 212); */
+  background: -webkit-linear-gradient(0deg, rgb(81, 59, 86), rgb(93, 211, 158));
+  background: linear-gradient(0deg, rgb(81, 59, 86), rgb(93, 211, 158));
+}
+
+.fofar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 7.5px;
+    margin-left: 3px;
+    padding:0px 0px;
+    font-size: 1rem;
+    font: inherit;
+    text-decoration: none;
+    color: black;
+}
+
+/* @media (max-width: 1440px) {
+  main p {
+    font-size: 3.1rem;
+  }
+  h1 a{
+    font-size: 4.5rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 2.7rem;
+  }
+} */
+
+@media (max-width: 768px){
+  main p {
+    font-size: 2.8rem;
+  }
+
+  h1 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  h1 a{
+    font-size: 3.5rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 375px){
+  main p {
+    font-size: 1.6rem;
+  }
+  h1 a{
+    font-size: 2.5rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 481px) and (max-height:768px){
+  main p {
+    font-size: 1.8rem;
+  }
+  h1 a{
+    font-size: 2.5rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 769px) and (max-height:1279px){
+  main p {
+    font-size: 2.5rem;
+  }
+  h1 a{
+    font-size: 3.4rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 1.9rem;
+  }
+}
+
+/* @media (max-width: 1440px) and (max-height:1600px){
+  main p {
+    font-size: 3.8rem;
+  }
+  h1 a{
+    font-size: 5.5rem;
+  }
+  footer p{
+    padding: 30px;
+    font-size: 2.2rem;
+  }
+} */
